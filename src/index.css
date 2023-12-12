@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Input  */
+.form-container {
+  display: flex;
+  justify-content: center;
+}
+
+.form-input {
+  padding: 5px 10px;
+  outline: none;
+  margin-right: 10px;
+}
+
+.form-btn {
+  padding: 0 10px;
+  background-color: #0866ff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+}
+
+.form-btn:hover {
+  cursor: pointer;
+  background-color: #7eaffd;
+}
+
+/* header */
+
+.header-container {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  border-bottom: 1px solid #1a1717;
+  padding-bottom: 10px;
+}
+
+.header-commit {
+  width: 800px;
+}
+
+/* repository */
+
+.repository-container {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  border-bottom: 1px solid #d3c5c5;
+  padding-bottom: 10px;
+}
+
+.repository-data {
+  width: 800px;
+}
+
+.repository-data:hover {
+  text-decoration: underline;
+  color: #0866ff;
+  cursor: pointer;
+}
+
+.repository-btn {
+  display: flex;
+  margin-left: auto;
+  border: none;
+  background-color: #ffffff;
+  text-decoration: underline;
+  color: #0866ff;
+  
+}
+
+.repository-btn:hover {
+  cursor: pointer;
+}
+
+/* commit */
+
+.commit-container {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  border-bottom: 1px solid #d3c5c5;
+  padding-bottom: 10px;
+}
+
+.commit-data {
+  width: 800px;
+}
